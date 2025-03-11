@@ -41,7 +41,7 @@ pipeline:
                   spec:
                     caching: false
                     connectorRef: <+input>
-                    repo: hello/world
+                    repo: maxs0418/harnesstest
                     tags:
                       - latest
                   timeout: ""
