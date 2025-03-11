@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MaxS0418_jhttp_1741709169540-push-trigger-input-set
+  identifier: Build_MaxS0418_jhttp_1741709169540pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessTest
+  pipeline:
+    identifier: Build_MaxS0418_jhttp_1741709169540
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
