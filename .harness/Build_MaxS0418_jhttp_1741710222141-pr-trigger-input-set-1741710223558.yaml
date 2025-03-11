@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MaxS0418_jhttp_1741710222141-pr-trigger-input-set
+  identifier: Build_MaxS0418_jhttp_1741710222141prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessTest
+  pipeline:
+    identifier: Build_MaxS0418_jhttp_1741710222141
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
