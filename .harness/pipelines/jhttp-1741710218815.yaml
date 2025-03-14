@@ -43,7 +43,7 @@ pipeline:
                     connectorRef: <+input>
                     repo: maxs0418/harnesstest
                     tags:
-                      - latest
+                      - <+pipeline.sequenceId>
                   timeout: ""
                   type: BuildAndPushDockerRegistry
           platform:
